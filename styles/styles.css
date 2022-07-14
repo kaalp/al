@@ -1,0 +1,123 @@
+
+*{
+/*	font-family: 'Montserrat', sans-serif;*/
+/*    font-family: 'Open Sauce', sans-serif;*/
+/*	font-size: 20px;*/
+	font-size : 1em;
+}
+
+html{
+	background-color: rgba(206, 226, 237, 0.2);
+	height : 100%;
+}
+
+body{
+	height : 100%;
+	width : 50%;
+	margin-left : 25%;
+
+}
+/*
+#cv{
+	display: none;
+}*/
+html{
+	background-image: url('../img/gears-trsp.png');
+	background-repeat: no-repeat;
+	min-width : 1000px;
+}
+
+#main{
+	margin-top : 30%;
+	height : 200px;
+	width : 100%;
+	min-width : 600px;
+/*	border:1px solid blue;*/
+	text-align: center;
+	position: relative;
+
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#home{
+	font-family: 'Open Sauce', sans-serif;
+	font-size: 20px;
+}
+
+.links{
+	color :#004aad;
+}
+
+.links:visited{
+	color :#004aad;
+}
+
+#al{
+	color:#004aad;
+}
+/* #004aad */
+
+.cta-menu{
+	position : absolute;
+	top : 5px;
+	left :3px;
+}
+
+.fa-angle-down {
+	color: #004aad;
+	size : 50px;
+}
+
+/*.fa-angle-down :after
+{
+    content: '\f107';
+}*/
+
+/*.menu{
+	display:none;
+}*/
+
+
+/**//**//**//**//**//**//**//**/
+/*opensauce font*/
+/**//**//**//**//**//**//**//**/
+
+
+@font-face {
+    font-family: 'open_sauce_sansblack';
+    src: url('../assets/fonts/opensaucesans-black-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-size : 2em;
+
+}
+
+
+/**//**//**//**//**//**//**//**/
+/*cv.html*/
+/**//**//**//**//**//**//**//**/
+
+#maincv{
+	margin-top : 0;
+	height : 100%;
+	width : 100%;
+	min-width : 600px;
+	border:1px solid blue;
+	text-align: center;
+	position: relative;
+	color : #004aad;
+
+}
+
+#name p{
+	text-align: right;
+	font-family: 'open_sauce_sansblack' normal;
+	font-size: : 3em;
+}

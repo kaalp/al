@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1000px) {
+body{
+    width: 850px;
+    margin : 0;
+
+/*    border : 1px solid red;*/
+  }
+#main{
+    margin-top : 30%;
+}
+}
+
+@media only screen and (max-width: 700px) {
+body{
+    width: 500px;
+    margin : 0;
+/*    border : 1px solid red;*/
+  }
+#main{
+	width : 500px;
+    margin-top : 50%;
+}
+}
